@@ -1,0 +1,48 @@
+/* Reset style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Host Grotesk", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.common-btn {
+  background-color: rgba(232, 186, 46, 1);
+  color: rgba(0, 1, 2, 1);
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Header style */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px;
+}
+.header-navigation ul {
+  display: flex;
+  gap: 24px;
+}
+.header-navigation ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.header-navigation ul li a {
+  color: rgba(87, 87, 87, 1);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.common-btn i {
+  text-align: center;
+  margin-left: 5px;
+}
+/* Header end */
