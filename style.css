@@ -5,7 +5,7 @@
   font-family: "Host Grotesk", sans-serif;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
 }
 .common-btn {
@@ -19,7 +19,7 @@
   font-weight: 600;
 }
 
-/* Header style */
+/* Header section style */
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -45,4 +45,28 @@
   text-align: center;
   margin-left: 5px;
 }
-/* Header end */
+/* Header section end */
+
+/* Status section style */
+.status-parent {
+  background-color: rgba(244, 196, 48, 1);
+  padding: 50px;
+}
+.status-analysis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.status-analysis-text p {
+  color: rgba(87, 87, 87, 1);
+  font-weight: 400;
+  font-size: 16px;
+}
+.status-analysis-text h2 {
+  color: rgba(0, 1, 2, 1);
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: -2px;
+}
