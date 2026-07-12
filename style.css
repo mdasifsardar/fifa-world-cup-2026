@@ -70,3 +70,44 @@
   font-size: 72px;
   letter-spacing: -2px;
 }
+/* Status section end */
+
+/*  Explore host cities section style start  */
+.host-cities-parent {
+  padding: 60px;
+}
+.host-cities-heading {
+  text-align: center;
+  font-size: 56px;
+  color: rgba(0, 1, 2, 1);
+  font-weight: 600;
+  margin-bottom: 64px;
+}
+
+.host-cities-explore-place {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.host-cities-place-details h2 {
+  color: rgba(0, 1, 2, 1);
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.host-cities-place-details p {
+  color: rgba(87, 87, 87, 1);
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.host-cities-place-details ul li {
+  list-style: none;
+  color: rgba(77, 77, 77, 1);
+  font-weight: 700;
+  font-size: 17px;
+  margin: 5px;
+}
+/*  Explore host cities section end start  */
