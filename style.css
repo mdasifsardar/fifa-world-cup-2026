@@ -18,7 +18,10 @@
   cursor: pointer;
   font-weight: 600;
 }
-
+.common-btn i {
+  text-align: center;
+  margin-left: 5px;
+}
 /* Header section style */
 .header-nav {
   display: flex;
@@ -41,10 +44,6 @@
   font-weight: 500;
 }
 
-.common-btn i {
-  text-align: center;
-  margin-left: 5px;
-}
 /* Header section end */
 
 /* Status section style */
@@ -81,7 +80,7 @@
   font-size: 56px;
   color: rgba(0, 1, 2, 1);
   font-weight: 600;
-  margin-bottom: 64px;
+  margin-bottom: 56px;
 }
 
 .host-cities-explore-place {
@@ -110,4 +109,80 @@
   font-size: 17px;
   margin: 5px;
 }
+.host-cities-explore-btn {
+  text-align: center;
+}
 /*  Explore host cities section end start  */
+
+/* Matches schedule section style start */
+.matches-parent {
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 50px;
+}
+.matches-heading h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(17, 28, 45, 1);
+  margin-bottom: 10px;
+}
+.matches-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(80, 95, 118, 1);
+}
+
+.matches-schedule-parent {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.matches-schedule-heading tr th {
+  background-color: rgba(167, 49, 49, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.14px;
+
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 16px 24px;
+}
+
+.matches-schedule tr td {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.matches-schedule tr td:first-child {
+  color: #ba1a1a;
+  font-weight: 600;
+}
+.matches-schedule tr td:nth-child(2) {
+  color: rgba(17, 28, 45, 1);
+  font-weight: 700;
+}
+.matches-schedule tr td:nth-child(3) {
+  color: rgba(80, 95, 118, 1);
+  font-weight: 400;
+}
+.matches-schedule tr td:last-child {
+  color: rgba(17, 28, 45, 1);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* 2 diffrent color stage */
+.matches-status-first-child {
+  color: rgba(246, 0, 0, 1) !important;
+}
+.matches-status-last-child {
+  color: rgba(189, 160, 4, 1) !important;
+}
+/* Matches schedule section style end */
