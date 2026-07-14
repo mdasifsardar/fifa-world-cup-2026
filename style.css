@@ -46,10 +46,54 @@
 
 /* Header section end */
 
-/* Status section style */
+/* Hero section style start */
+.hero-parent {
+  background:
+    linear-gradient(
+      to right,
+      #000000,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0)
+    ),
+    url("img/hero.png");
+  width: 100%;
+  height: 786px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.hero-text {
+  margin-left: 70px;
+  position: absolute;
+  top: 200px;
+}
+.hero-text h2 span {
+  font-weight: 700;
+  font-size: 80px;
+  letter-spacing: -4;
+  display: block;
+  color: #ffffff;
+}
+.hero-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  width: 448px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Hero section style end */
+
+/* Status section style start */
 .status-parent {
   background-color: rgba(244, 196, 48, 1);
-  padding: 50px;
+  padding: 50px 0;
 }
 .status-analysis {
   display: flex;
@@ -57,7 +101,10 @@
   align-items: center;
   gap: 24px;
 }
-
+.status-analysis-text {
+  flex: 1;
+  text-align: center;
+}
 .status-analysis-text p {
   color: rgba(87, 87, 87, 1);
   font-weight: 400;
